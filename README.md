@@ -5,7 +5,7 @@ Dado un conjunto de muestras, podemos etiquetar las clases y entrenar una SVM pa
 SVM: separando las clases a 2 espacios lo más amplios posibles.
 - Cuando las nuevas muestras se ponen en el modelo, en función de los espacios a los que pertenezcan, pueden ser clasificadas a una o la otra clase.
  
-<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/Ejemplos-SVM.png" width="250">
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/Ejemplos-SVM.png" width="800">
 
 ## Modelado del problema
 1. Identificamos el problema → predicción → clasificación.
