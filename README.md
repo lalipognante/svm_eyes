@@ -31,7 +31,7 @@ El subconjunto de datos de entrenamiento: utilizado para estimar los parámetros
 El subconjunto de datos de test: utilizado para comprobar el comportamiento del modelo estimado.
 1. Lo dividimos en 2 → Train (70%) y Test (30%)
 2. Subdividimos Train → Train (50%) y Val (20%)
-![svm-training](https://github.com/lalipognante/svm_eyes/blob/main/img/training-test.png)
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/training-test.png" width="600">
  
 ## Parámetros del SVM
 ### Kernel
@@ -43,7 +43,7 @@ El subconjunto de datos de test: utilizado para comprobar el comportamiento del 
 * (+ grande es el Gamma , + Overfitting)
 * C = define la separación de mis datos
 * (+ grande es el C , los datos + separados)
-![svm-training](https://github.com/lalipognante/svm_eyes/blob/main/img/grafico-2.png)
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/grafico-2.png" width="600">
 
 ## ¿Cómo elegimos el mejor modelo ?
 Fuimos cambiando los parámetros, evaluando y nos quedamos con el mejor modelo:
@@ -60,7 +60,8 @@ Para ver gráficamente las predicciones:
   * Falso Positivo (FP): (predijo + cuando era -)
   * Verdadero Negativo (TN): (predijo - cuando era -)
   * Falso Negativo (FN): (predijo - cuando era +)
-![svm-metricas](https://github.com/lalipognante/svm_eyes/blob/main/img/mat.png)
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/mat.png" width="600">
+
 
 ## Reporte de Clasificación
 * Precisión: número de predicciones correctas (+ -) / el total de todas las predicciones
@@ -68,7 +69,7 @@ Para ver gráficamente las predicciones:
 * f1-score: puntaje de precisión y sensibilidad → la mejor puntuación es 1.0 y la peor es 0.0
   - mayor es la precisión y sensibilidad
   - mayor es la puntuación de F1
-![svm-report](https://github.com/lalipognante/svm_eyes/blob/main/img/report.png)
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/report.png" width="600">
 * TN+FP=252 
 * TP+FN=241 
 * 252+241=493
@@ -80,4 +81,5 @@ El mejor método posible → en un punto en la esquina superior izquierda.
 * Representa 100% de especificidad (ningún falso positivo)
 
 ## ROC en nuestro modelo
-![svm-graficoss](https://github.com/lalipognante/svm_eyes/blob/main/img/curvas.png)
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/curvas.png" width="600">
+
