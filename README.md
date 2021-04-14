@@ -31,6 +31,7 @@ El subconjunto de datos de entrenamiento: utilizado para estimar los parámetros
 El subconjunto de datos de test: utilizado para comprobar el comportamiento del modelo estimado.
 1. Lo dividimos en 2 → Train (70%) y Test (30%)
 2. Subdividimos Train → Train (50%) y Val (20%)
+![svm-training](https://github.com/lalipognante/svm_eyes/blob/main/img/training-test.png)
  
 ## Parámetros del SVM
 ### Kernel
@@ -42,6 +43,7 @@ El subconjunto de datos de test: utilizado para comprobar el comportamiento del 
 * (+ grande es el Gamma , + Overfitting)
 * C = define la separación de mis datos
 * (+ grande es el C , los datos + separados)
+![svm-training](https://github.com/lalipognante/svm_eyes/blob/main/img/grafico-2.png)
 
 ## ¿Cómo elegimos el mejor modelo ?
 Fuimos cambiando los parámetros, evaluando y nos quedamos con el mejor modelo:
