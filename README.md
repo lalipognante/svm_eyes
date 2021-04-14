@@ -60,6 +60,7 @@ Para ver gráficamente las predicciones:
   * Falso Positivo (FP): (predijo + cuando era -)
   * Verdadero Negativo (TN): (predijo - cuando era -)
   * Falso Negativo (FN): (predijo - cuando era +)
+![svm-metricas](https://github.com/lalipognante/svm_eyes/blob/main/img/mat.png)
 
 ## Reporte de Clasificación
 * Precisión: número de predicciones correctas (+ -) / el total de todas las predicciones
