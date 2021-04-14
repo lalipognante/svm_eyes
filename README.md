@@ -6,6 +6,7 @@ SVM: separando las clases a 2 espacios lo más amplios posibles.
 - Cuando las nuevas muestras se ponen en el modelo, en función de los espacios a los que pertenezcan, pueden ser clasificadas a una o la otra clase.
  
 ![svm-grafico](https://github.com/lalipognante/svm_eyes/blob/main/img/Ejemplos-SVM.png = 250x)
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/Ejemplos-SVM.png" width="48">
 
 ## Modelado del problema
 1. Identificamos el problema → predicción → clasificación.
