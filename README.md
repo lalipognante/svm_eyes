@@ -43,7 +43,7 @@ El subconjunto de datos de test: utilizado para comprobar el comportamiento del 
 * (+ grande es el Gamma , + Overfitting)
 * C = define la separación de mis datos
 * (+ grande es el C , los datos + separados)
-<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/grafico-2.png" width="600">
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/grafico-2.png" width="500">
 
 ## ¿Cómo elegimos el mejor modelo ?
 Fuimos cambiando los parámetros, evaluando y nos quedamos con el mejor modelo:
@@ -69,7 +69,7 @@ Para ver gráficamente las predicciones:
 * f1-score: puntaje de precisión y sensibilidad → la mejor puntuación es 1.0 y la peor es 0.0
   - mayor es la precisión y sensibilidad
   - mayor es la puntuación de F1
-<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/report.png" width="600">
+<img src="https://github.com/lalipognante/svm_eyes/blob/main/img/report.png" width="400">
 * TN+FP=252 
 * TP+FN=241 
 * 252+241=493
