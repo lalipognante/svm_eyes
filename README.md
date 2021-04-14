@@ -67,7 +67,7 @@ Para ver gráficamente las predicciones:
 * f1-score: puntaje de precisión y sensibilidad → la mejor puntuación es 1.0 y la peor es 0.0
   - mayor es la precisión y sensibilidad
   - mayor es la puntuación de F1
-Image
+![svm-report](https://github.com/lalipognante/svm_eyes/blob/main/img/report.png)
 * TN+FP=252 
 * TP+FN=241 
 * 252+241=493
