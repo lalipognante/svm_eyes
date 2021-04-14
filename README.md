@@ -79,3 +79,4 @@ El mejor método posible → en un punto en la esquina superior izquierda.
 * Representa 100% de especificidad (ningún falso positivo)
 
 ## ROC en nuestro modelo
+![svm-graficoss](https://github.com/lalipognante/svm_eyes/blob/main/img/curvas.png)
